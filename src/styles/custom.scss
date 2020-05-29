@@ -1,0 +1,17 @@
+th {
+  text-align: center !important;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+.table {
+    td.fit, th.fit {
+      white-space: nowrap;
+      width: 1%;
+    }
+}
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
