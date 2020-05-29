@@ -1,16 +1,18 @@
 ## Components organization
-The folder src contains the components folder, inside this folder the directories are:
-* generics: stores the generic components, the ones without relations with the business concepts.
-* business: stores the business related components, the ones with relations with the business concepts.
-* routed: stores the components which are already linked with the router and state store of the application.
+The folder `src` contains the components folder, inside this folder the directories are:
+* `generics`: stores the generic components, the ones without relations with the business concepts.
+* `business`: stores the business related components, the ones with relations with the business concepts.
+* `routed`: stores the components which are already linked with the router and state store of the application.
 
-This separation separate concerns and facilitates testing.
+This organization separates concerns and facilitates testing.
 
 The rest of the folders are:
-* models: contains the necessary DTOs for the application, in this case, there is only one.
-* stores: stores for the application, MobX is used for state management. There is only one, the student store.
-* styles: custom styles (SCSS) for the application. For simplicity, Bootstrap is used as CSS Framework.
+* `models`: contains the necessary DTOs for the application, in this case, there is only one.
+* `stores`: stores for the application, MobX is used for state management. There is only one, the student store.
+* `styles`: custom styles (SCSS) for the application. For simplicity, Bootstrap is used as CSS Framework.
 
+## Unit test
+Unit tests are located under the `src/__tests__` folder.
 
 ## Available Scripts
 
